@@ -1,0 +1,30 @@
+{
+    "name": "Brooklyn Public Library",
+    "books": {
+        "123456789": {
+            "title": "The Wizard of Oz",
+            "author": "L. Frank Baum",
+            "ISBN": "123456789",
+            "copies": 3
+        },
+        "987654321": {
+            "title": "The Very Hungry Caterpillar",
+            "author": "Eric Carle",
+            "ISBN": "987654321",
+            "copies": 2,
+            "file_format": "PDF"
+        }
+    },
+    "members": [
+        {
+            "name": "Adina",
+            "member_id": 1,
+            "borrowed_books": ["123456789"]
+        },
+        {
+            "name": "Rivka",
+            "member_id": 2,
+            "borrowed_books": ["987654321"]
+        }
+    ]
+}
